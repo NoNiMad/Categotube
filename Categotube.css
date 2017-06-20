@@ -1,0 +1,40 @@
+#rollback, #categorize {
+    position: absolute;
+    background: #bf360c;
+    color: white;
+    padding: 5px 10px;
+    top: -5px;
+    left: -35px;
+}
+
+.ctube-cat-col {
+    float: left;
+    display: inline-block;
+    width: 220px;
+    padding: 5px 10px;
+}
+
+.ctube-cat-col h2 {
+    margin: 10px 0;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+}
+
+.ctube-cat-col ul {
+    padding: 0 10px;
+}
+
+.ctube-vid-el {
+    margin: 20px 0;
+    background-color: #e3f2fd;
+}
+
+.ctube-vid-int {
+    padding: 5px 10px;
+    padding-bottom: 10px;
+}
+
+.ctube-vid-el img {
+    width: 200px;
+    height: 112px;
+}

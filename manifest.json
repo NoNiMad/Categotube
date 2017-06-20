@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Categotube",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions*"],
+      "css": ["Categotube.css"],
+      "js": ["jQuery.min.js", "ChangeSubscriptions.js"]
+    }
+  ]
+
+}
